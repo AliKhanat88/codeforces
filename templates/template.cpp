@@ -6,7 +6,7 @@ using namespace __gnu_pbds;
 using namespace std;
 
 #define ll long long
-#define hello cout << "Hello" << endl 
+#define hello cout << "Hello-----------------------" << endl 
 
 template<typename T>
 using ordered_set = tree<T, null_type, less<T>, rb_tree_tag, tree_order_statistics_node_update>;
